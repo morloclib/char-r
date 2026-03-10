@@ -1,3 +1,6 @@
+# This is HORRIBLE code
+# R really doesn't do characters so perhaps we shouldn't even define this module?
+
 morloc_isUpper <- function(c) {
   ch <- intToUtf8(c)
   grepl("[A-Z]", ch)
