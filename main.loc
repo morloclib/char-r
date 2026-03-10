@@ -1,0 +1,26 @@
+module char-r (*)
+
+import char
+import root-r
+
+type R => UInt8 = "integer"
+
+source R from "R/char.R"
+    ( "morloc_isUpper" as isUpper
+    , "morloc_isLower" as isLower
+    , "morloc_isAlpha" as isAlpha
+    , "morloc_isDigit" as isDigit
+    , "morloc_isAlphaNum" as isAlphaNum
+    , "morloc_isSpace" as isSpace
+    , "morloc_isPunct" as isPunct
+    , "morloc_isPrint" as isPrint
+    , "morloc_isControl" as isControl
+    , "morloc_toUpperChar" as toUpperChar
+    , "morloc_toLowerChar" as toLowerChar
+    , "morloc_digitToInt" as digitToInt
+    , "morloc_intToDigit" as intToDigit
+    , "morloc_ord" as ord
+    , "morloc_chr" as chr
+    , "morloc_encode" as encode
+    , "morloc_decode" as decode
+    )

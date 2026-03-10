@@ -1,0 +1,11 @@
+name: char-r
+version: 0.1.0
+homepage: https://github.com/morloclib/char-r
+synopsis: R implementations for character operations
+description: R implementations for character operations
+category: data
+license: MIT
+author: "Zebulun Arendsee"
+maintainer: "z@morloc.io"
+github: https://github.com/morloclib/char-r
+bug-reports: https://github.com/morloclib/char-r

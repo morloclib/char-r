@@ -1,0 +1,4 @@
+module test-char-r (test)
+
+import char.test (test)
+import char-r
